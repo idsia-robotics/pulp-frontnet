@@ -1,0 +1,34 @@
+{
+    "lr": 1e-4,
+    "epochs": 50,
+    "batch_size": 64,
+    "weight_decay": 1e-6,
+    "optimizer": "adam",
+    "lr_decay": 0.95,
+    "relaxation": {
+        "0": {
+            "W_bits": 12.0,
+            "x_bits": 12.0
+        },
+        "custom_scaler": [
+            [10, 12, 1e-4, "lower_lr"],
+            [9,  12, 1e-4, "lower_lr"],
+            [8,  12, 1e-4, "lower_lr"],
+            [7,  12, 1e-4, "lower_lr"],
+            [7,   8, 1e-4, "lower_lr"]
+        ],
+        "for_epochs": 3,
+        "for_epochs_no_abs_bound": 5,
+        "delta_loss_less_than": 0.05,
+        "W_bit_scaler": -1.0,
+        "W_bit_stop_condition": 6.0,
+        "x_bit_scaler": -1.0,
+        "x_bit_stop_condition": 7.0,
+        "running_avg_memory": 5,
+        "delta_loss_running_std_stale": 0.05,
+        "abs_loss_stale": 0.02,
+        "scale_lr": true,
+        "lr_scaler": 1.4142135624,
+        "divergence_abs_threshold": 5.0
+    }
+}
