@@ -33,9 +33,9 @@ import nemo
 from Frontnet.DataProcessor import DataProcessor
 from Frontnet.ModelTrainer import ModelTrainer
 from Frontnet.Dataset import Dataset
-from Frontnet.ModelManager import ModelManager
 from Frontnet.Frontnet import FrontnetModel
 from Frontnet import Utils
+from Frontnet.Utils import ModelManager
 
 
 def main():
