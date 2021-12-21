@@ -47,7 +47,7 @@ by the Swiss National Centre of Competence in Research (NCCR) Robotics,
 and by the EU H2020 projects 1-SWARM and ALOHA (grant no. 871743 and 780788).
 
 ## Introduction
-<a href="https://www.youtube.com/watch?v=_2iuprdUGXs">
+<a href="https://www.youtube.com/watch?v=_kmDDYoNA3g">
   <img src="Docs/images/field_tests.gif" alt="In-field demonstration of PULP-Frontnet" width="800">
   <br>
   YouTube video
